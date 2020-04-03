@@ -1,0 +1,15 @@
+{
+  "name": "scrimba-fromscratch",
+  "version": "1.0.0",
+  "description": "react from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "scrimba-react-fromscratch"
+  },
+  "author": "",
+  "license": "ISC"
+}
