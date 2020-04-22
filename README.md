@@ -4,9 +4,13 @@ Making a React project from scratch so that I can learn more about the process.
 Making a React app from scratch involves using:  
 1. a compiler  
 2. a bundler
-3. React (using npm)  
+3. a package manager (I use react with npm).
   
-For this particular practice I am using the instructions found [here](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658).
+I am following a scrimba course that does not explain anything about how to acutally implement or use React and continues to require to make prjects from scratch so I have found a tutorial that will help me do this :).  
+
+For this particular practice I am using the instructions found [here](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658).  
+
+This is also a helpful link: https://reactjs.org/docs/create-a-new-react-app.html
 
 ## Compiler
 This particular tutorial uses Babel
@@ -49,6 +53,16 @@ https://medium.com/@stalonadsl948/dependencies-vs-devdependencies-926e096a3dee
 
 ## Further notes  
 
+**HMR**  
+HMR stands for Hot Module Replacement.  
+Read [this, to understand why you should use HMR](https://www.javascriptstuff.com/why-use-hmr/).  
+In short, "Hot Module Replacement is a Webpack feature that updates your Javascript without a browser reload. It can even maintain your application state across code updates. It's primarily used for development."
+It is my understanding that this is what react apps automatically do if you don't build them from scratch.  
+Note that HMR can be used with Webpack and Parcel but not with Rollup. A practical explanation as to why this is useful can be read about [here](https://stackoverflow.com/questions/49236373/react-hot-module-replacement-alternative-rollup-gulp-and-browsersync).
+
+https://www.javascriptstuff.com/understanding-hmr/
+
+
 I came across this error when trying to install React Hot Loader (using: `npm install react-hot-loader`).
 > npm ERR! Failed to parse package.json data.  
 > npm ERR! package.json must be actual JSON, not just JavaScript.  
@@ -62,16 +76,4 @@ sudo npm cache clean -f
 sudo npm install -g n  
 sudo n stable
 ````
-
-
-**HMR**  
-HMR stands for Hot Module Replacement.  
-Read [this, to understand why you should use HMR](https://www.javascriptstuff.com/why-use-hmr/).  
-In short, "Hot Module Replacement is a Webpack feature that updates your Javascript without a browser reload. It can even maintain your application state across code updates. It's primarily used for development."
-It is my understanding that this is what react apps automatically do if you don't build them from scratch.  
-Note that HMR can be used with Webpack and Parcel but not with Rollup. A practical explanation as to why this is useful can be read about [here](https://stackoverflow.com/questions/49236373/react-hot-module-replacement-alternative-rollup-gulp-and-browsersync).
-
-https://www.javascriptstuff.com/understanding-hmr/
-
-
 
