@@ -11,14 +11,20 @@ https://babeljs.io/docs/en/
 What about webpack vs parcel vs rollup?
 These are all bundlers: "a bundler is a tool that recursively follows all imports from the entry point of your app and bundles them up into a single file. Bundlers can also minify your files by removing unnecessary white spaces, new lines, comments, and block delimiters without affecting their functionality."
 
-Looking at a few categories to decide which bundler is best...
-**Configuring** 
+Looking at a few categories to decide which bundler is best...  
+
+**Configuring**  
+
 Parcel wins as it does not require configuring.
-"webpack config can get complex, but it provides extensive support for third-party imports, images, CSS preprocessors, and whatnot."
-**Dead code elimination**
+"webpack config can get complex, but it provides extensive support for third-party imports, images, CSS preprocessors, and whatnot."  
+
+**Dead code elimination**  
+
 Parcel emerged as the winner here.
-Rollup comes second
-**Code splitting**
+Rollup comes second  
+
+**Code splitting**  
+
 webpack wins in this aspect, with minimal work and faster load time.
 
 "Building a basic app and want to get it up and running quickly? Use Parcel.
