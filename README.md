@@ -57,9 +57,10 @@ I came across this error when trying to install React Hot Loader (using: `npm in
 After some investigation there was no error with the type of file, there was simply a comma in the wrong place at the end of an object.  
 After this problem was solved I still couldn't install it as my node.js version was too old so I updated it using instructions found [here](https://www.hostingadvice.com/how-to/update-node-js-latest-version/):
 
-> sudo npm cache clean -f  
-> sudo npm install -g n  
-> sudo n stable  
+```` sudo npm cache clean -f  
+sudo npm install -g n  
+sudo n stable  
+````
 
 
 
