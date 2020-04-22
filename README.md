@@ -49,7 +49,7 @@ https://create-react-app.dev/docs/installing-a-dependency/
 
 ## Further notes  
 
-I came across this error when trying to install React Hot Loader (using: npm install react-hot-loader).
+I came across this error when trying to install React Hot Loader (using: `npm install react-hot-loader`).
 > npm ERR! Failed to parse package.json data.  
 > npm ERR! package.json must be actual JSON, not just JavaScript.  
 > npm ERR! Tell the package author to fix their package.json file. JSON.parse  
