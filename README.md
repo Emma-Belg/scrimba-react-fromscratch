@@ -49,6 +49,11 @@ The installation of regular dependencies was new to me.
 https://create-react-app.dev/docs/installing-a-dependency/
 
 **Regular dependencies vs dev dependencies**
+A note on dev dependencies
+"devDependencies should contain packages which are used during development or which are used to build your bundle, for example, mocha, jscs, grunt-contrib-watch, gulp-jade and etc. These packages are neseccery only while you are developing your project, also ESlint is used to check everything during building your bundle. So install all these packages using -dev flag, this will say to the npm, heeey, I need these package for development, so this will automatically add package to devDependencies instead of usual dependencies."  
+Whereas  
+"Dependencies should contain libs and framewors your app is built on, such as Vue, React, Angular, Express, JQuery and etc. You will agree with me, if I say, that your project wont work without these packages(if you are using them, of course)."  
+
 https://medium.com/@stalonadsl948/dependencies-vs-devdependencies-926e096a3dee
 
 ## Further notes  
