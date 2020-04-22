@@ -45,7 +45,7 @@ The installation of regular dependencies was new to me.
 https://create-react-app.dev/docs/installing-a-dependency/
 
 **Regular dependencies vs dev dependencies**
-
+https://medium.com/@stalonadsl948/dependencies-vs-devdependencies-926e096a3dee
 
 ## Further notes  
 
@@ -63,6 +63,15 @@ sudo npm install -g n
 sudo n stable
 ````
 
+
+**HMR**  
+HMR stands for Hot Module Replacement.  
+Read [this, to understand why you should use HMR](https://www.javascriptstuff.com/why-use-hmr/).  
+In short, "Hot Module Replacement is a Webpack feature that updates your Javascript without a browser reload. It can even maintain your application state across code updates. It's primarily used for development."
+It is my understanding that this is what react apps automatically do if you don't build them from scratch.  
+Note that HMR can be used with Webpack and Parcel but not with Rollup. A practical explanation as to why this is useful can be read about [here](https://stackoverflow.com/questions/49236373/react-hot-module-replacement-alternative-rollup-gulp-and-browsersync).
+
+https://www.javascriptstuff.com/understanding-hmr/
 
 
 
